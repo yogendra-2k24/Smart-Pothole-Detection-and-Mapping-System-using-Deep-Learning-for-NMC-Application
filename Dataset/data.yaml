@@ -1,0 +1,7 @@
+path: C:\Users\yogen\OneDrive\Desktop\PH2\Dataset
+
+train: ./train/images
+val: ./valid/images
+
+nc: 1
+names: ['pothole']

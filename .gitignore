@@ -1,0 +1,27 @@
+# Virtual environment
+pothole_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Large video files (if not needed)
+# sample_video.mp4
+
+# Captures (generated images)
+captures/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

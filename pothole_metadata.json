@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "image_path": "captures/pothole_1776758518.jpg",
+        "location": "21.14711 N, 79.08544 E",
+        "timestamp": 1776758518.2204802,
+        "status": "reported"
+    },
+    {
+        "id": 2,
+        "image_path": "captures/pothole_1776758521.jpg",
+        "location": "21.14323 N, 79.08996 E",
+        "timestamp": 1776758521.233829,
+        "status": "reported"
+    },
+    {
+        "id": 3,
+        "image_path": "captures/pothole_1776758524.jpg",
+        "location": "21.14374 N, 79.08488 E",
+        "timestamp": 1776758524.274652,
+        "status": "reported"
+    },
+    {
+        "id": 4,
+        "image_path": "captures/pothole_1776758527.jpg",
+        "location": "21.14720 N, 79.08614 E",
+        "timestamp": 1776758527.2884758,
+        "status": "reported"
+    },
+    {
+        "id": 5,
+        "image_path": "captures/pothole_1776758530.jpg",
+        "location": "21.14884 N, 79.08888 E",
+        "timestamp": 1776758530.3357966,
+        "status": "reported"
+    },
+    {
+        "id": 6,
+        "image_path": "captures/pothole_1776758533.jpg",
+        "location": "21.14621 N, 79.08655 E",
+        "timestamp": 1776758533.4045396,
+        "status": "reported"
+    },
+    {
+        "id": 7,
+        "image_path": "captures/pothole_1776758536.jpg",
+        "location": "21.14892 N, 79.09305 E",
+        "timestamp": 1776758536.4759133,
+        "status": "reported"
+    },
+    {
+        "id": 8,
+        "image_path": "captures/pothole_1776758539.jpg",
+        "location": "21.15006 N, 79.09003 E",
+        "timestamp": 1776758539.4906032,
+        "status": "reported"
+    },
+    {
+        "id": 9,
+        "image_path": "captures/pothole_1776758542.jpg",
+        "location": "21.14284 N, 79.08448 E",
+        "timestamp": 1776758542.5600176,
+        "status": "reported"
+    },
+    {
+        "id": 10,
+        "image_path": "captures/pothole_1776758545.jpg",
+        "location": "21.14371 N, 79.08470 E",
+        "timestamp": 1776758545.5935147,
+        "status": "reported"
+    },
+    {
+        "id": 11,
+        "image_path": "captures/pothole_1776758548.jpg",
+        "location": "21.14279 N, 79.09001 E",
+        "timestamp": 1776758548.6292577,
+        "status": "reported"
+    },
+    {
+        "id": 12,
+        "image_path": "captures/pothole_1776758551.jpg",
+        "location": "21.14191 N, 79.08863 E",
+        "timestamp": 1776758551.6631613,
+        "status": "reported"
+    },
+    {
+        "id": 13,
+        "image_path": "captures/pothole_1776758554.jpg",
+        "location": "21.14858 N, 79.09292 E",
+        "timestamp": 1776758554.752541,
+        "status": "reported"
+    },
+    {
+        "id": 14,
+        "image_path": "captures/pothole_1776758557.jpg",
+        "location": "21.14392 N, 79.08752 E",
+        "timestamp": 1776758557.760173,
+        "status": "reported"
+    },
+    {
+        "id": 15,
+        "image_path": "captures/pothole_1776758560.jpg",
+        "location": "21.14869 N, 79.08609 E",
+        "timestamp": 1776758560.7617376,
+        "status": "reported"
+    }
+]

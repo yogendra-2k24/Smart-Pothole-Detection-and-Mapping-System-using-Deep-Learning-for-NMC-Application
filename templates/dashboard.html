@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMC | Smart Pothole Dashboard</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    
+    <!-- Header Area -->
+    <header>
+        <div class="brand">
+            <!-- Icon mapped to the NMC Theme -->
+            <i class="fa-solid fa-map-location-dot fa-2x" style="color: #60a5fa;"></i>
+            <h1>NMC POTHOLE DETECTION SYSTEM</h1>
+        </div>
+        <div class="stats-container">
+            <div class="stat-pill">
+                <span>Total Detected:</span>
+                <span class="count" id="stat-total">0</span>
+            </div>
+            <div class="stat-pill reported">
+                <span>Pending:</span>
+                <span class="count" id="stat-reported">0</span>
+            </div>
+            <div class="stat-pill prog">
+                <span>In Progress:</span>
+                <span class="count" id="stat-prog">0</span>
+            </div>
+            <div class="stat-pill fixed">
+                <span>Fixed:</span>
+                <span class="count" id="stat-fixed">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Layout: Map + Feed -->
+    <main>
+        <!-- Map Pane -->
+        <div class="map-panel">
+            <div id="map"></div>
+        </div>
+        
+        <!-- Scrolling Image & Action Feed -->
+        <div class="feed-panel">
+            <div class="feed-header">
+                <h2>Recent Captures</h2>
+                <div class="live-indicator">
+                    <div class="live-dot"></div>
+                    Live Update
+                </div>
+            </div>
+            <div class="pothole-list" id="pothole-list">
+                <!-- Cards injected dynamically via app.js -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- Custom Logic -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    
+</body>
+</html>
